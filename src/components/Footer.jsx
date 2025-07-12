@@ -28,6 +28,7 @@ import Image28 from "../assets/images/bp-logo-full-2048x663.webp"
 import Image29 from "../assets/images/YIF_LOGO_512x512_BL_on_WH-1.webp"
 import Image30 from "../assets/images/logo-kante-company-1.png"
 import Logo from "../assets/images/logo-hei.png";
+import Image31 from "../assets/images/A-propos-left-1.webp"
 //import "@fortawesome/fontawesome-free/css/all.min.css"
 
 
@@ -41,7 +42,7 @@ function Footer(){
       <img src="image1.jpg" alt="Classe" class="w-72 h-64 object-cover shadow-md" />
     </div>
     <div class="rounded-lg border-4 border-white shadow-lg -mt-8 lg:mt-0 lg:-ml-8 bg-white p-2">
-      <img src="" alt="Étudiants HEI" class="w-64 h-64 object-cover" />
+      <img src= {Image31} alt="Étudiants HEI" class="w-64 h-64 object-cover" />
     </div>
   </div>
 
