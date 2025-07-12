@@ -90,55 +90,55 @@ function Footer(){
   </div>
 </div>
 
- {/**EQUIPE PEDAGOGIQUE*/}
-<section class="bg-blue-600 text-white py-16">
-  <div class="container mx-auto px-4 text-center">
-    <h2 class="text-4xl font-serif mb-4">L'équipe pédagogique</h2>
-    <p class="max-w-2xl mx-auto mb-12">
-      Notre équipe pédagogique se compose d'experts nationaux et internationaux de l'informatique,
-      de la cybersecurité, de l'intelligence artificielle, dont un ingénieur chez Google. Ils sont
-      passionnées par l'informatique et sont engagés vers l'excellence. Nous sommes conscients
-      que cette équipe est la pierre angulaire de l'employabilité de nos étudiants, elle a été 
-      soigneusement sélectionnée.      
-    </p>
-    <div class="relative flex items-center justify-center space-x-4">
-      <button class="absolute left-0 p-2 bg-white bg-opacity-20 rounded-full">‹</button>
 
-      <div class="flex space-x-8 overflow-x-auto snap-x snap-mandatory px-2">
-        <div class="bg-white text-blue-900 rounded-xl flex-shrink-0 w-64 p-6 snap-center">
-          <div class="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-gray-200 mb-4">
+<section className="bg-blue-600 text-white py-16">
+      <div className="container mx-auto px-4 text-center">
+        <h2 className="text-4xl font-serif mb-4">L'équipe pédagogique</h2>
+        <p className="max-w-2xl mx-auto mb-12">
+          Notre équipe pédagogique se compose d'experts nationaux et internationaux de l’informatique, 
+          de la cybersécurité, de l’intelligence artificielle, dont un ingénieur chez Google. 
+          Ils sont passionnés par l’informatique et engagés vers l’excellence. 
+          Nous sommes conscients que cette équipe est la pierre angulaire de l’employabilité de nos étudiants, 
+          elle a été soigneusement sélectionnée.
+        </p>
+
+        {/* Cartes de l'équipe */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {/* Carte 1 */}
+          <article className="bg-white text-blue-900 rounded-xl p-6 shadow w-80 h-90 ml-10">
+            <div class="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-gray-200 mb-4">
             <img src={Image} alt="Profil" class="w-full h-full object-cover"/>
           </div>
-          <h3 class="text-xl font-bold mb-1">Mirado RAFENOMAHENINTSOA</h3>
-          <p class="text-sm">Data and Business Intelligence Specialist 5+</p>
-        </div>
-      </div>
-      
-      <div class="flex space-x-8 overflow-x-auto snap-x snap-mandatory px-2">
-        <div class="bg-white text-blue-900 rounded-xl flex-shrink-0 w-64 p-6 snap-center">
+           <div class="flex flex-col gap-4">
+            <h3 className="text-xl font-bold mt-6">Mirado RAFENOMAHENINTSOA</h3>
+            <p>Data and Business Intelligence Specialist 5+</p>
+            </div>
+          </article>
+
+          {/* Carte 2 */}
+          <article className="bg-white text-blue-900 rounded-xl p-6 shadow w-80 h-90 ml-10">
           <div class="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-gray-200 mb-4">
             <img src={Image4} alt="Profil" class="w-full h-full object-cover"/>
           </div>
-          <h3 class="text-xl font-bold mb-1">Julien <br/> RAJERISON</h3>
-          <p class="text-sm">Data and Business Intelligence Specialist 5+</p>
-        </div>
-      </div>
-      
+          <div class="flex flex-col gap-4">
+            <h3 className="text-xl font-bold  mt-6">Julien RAJERISON</h3>
+            <p>Lead Développeur | Fondation de l'association TechZara de Madagascar</p>
+          </div>
+          </article>
 
-      <div class="flex space-x-8 overflow-x-auto snap-x snap-mandatory px-2">
-        <div class="bg-white text-blue-900 rounded-xl flex-shrink-0 w-64 p-6 snap-center">
+          {/* Carte 3 */}
+          <article className="bg-white text-blue-900 rounded-xl p-6 shadow w-80 h-90 ml-10">
           <div class="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-gray-200 mb-4">
             <img src={Image5} alt="Profil" class="w-full h-full object-cover"/>
           </div>
-          <h3 class="text-xl font-bold mb-1">Ryan ANDRIAMAHERY</h3>
-          <p class="text-sm">Data and Business Intelligence Specialist 5+</p>
+             <div class="flex flex-col gap-4"> 
+            <h3 className="text-xl font-bold mt-6">Ryan ANDRIAMAHERY</h3>
+            <p>Développeur Back end | Cofondateur et Directeur des opérations de HEI</p>
+            </div>
+          </article>
         </div>
       </div>
-      
-      <button class="absolute right-0 p-2 bg-white bg-opacity-20 rounded-full">›</button>
-    </div>
-  </div>
-</section>
+    </section>
 
 {/**DEBOUCHE*/}
 <section class="py-16 container mx-auto px-4 flex flex-col lg:flex-row items-center">

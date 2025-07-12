@@ -31,7 +31,7 @@ function Navbar(){
           {/* HEADER */}
           <header className="relative">
             <img src={HEI} alt="hei" className="w-500 h-[600px] object-cover"/>
-            <h1 className="absolute top-1/3 left-1/2 transform -translate-x-1/2 text-white text-4xl font-bold">
+            <h1 className="absolute top-1/3 left-1/2 transform font-serif -translate-x-1/2 text-white text-4xl font-bold">
               Haute École Informatique
             </h1>
             <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 text-white text-lg text-center px-4">
