@@ -39,23 +39,24 @@ function Footer(){
           <div class="flex flex-col lg:flex-row items-start gap-8 p-8 bg-white">
   
   <div class="flex flex-col lg:flex-row gap-4">
-    <div class="rounded-lg border-4 border-white shadow-lg -mt-8 lg:mt-0 lg:-ml-8 bg-white p-2">
-      <img src= {Image31} alt="Étudiants HEI" class="w-300 h-150 object-cover" />
+    <div>
+      <img src= {Image31} alt="Étudiants HEI" class="w-130 h-150 object-cover mt-5" />
     </div>
   </div>
 
   
-  <div class="space-y-8 text-gray-800 mt-25">
-    
+  <div class="space-y-8 text-gray-800 mt-28 ml-20"> 
     <div class="flex items-start gap-4">
       <div class="text-yellow-500 text-3xl">
         {/**Icone*/}
       </div>
       <div>
-        <h3 class="text-xl font-bold text-blue-900">+3 ans</h3>
+        <h3 class="text-xl font-bold text-blue-900 text-left">+3 ans</h3>
         <p class="text-sm text-left">
-          Depuis 3 ans, nous formons ceux qui décryptent le futur, aux métiers de l’informatique.
-          Nous sommes un groupe d’experts, de professionnels et de passionnés de l’informatique de Madagascar et du monde entier.
+          Depuis 3 ans, nous formons ceux qui décryptent le futur, aux métiers <br/>
+          de l’informatique.
+          Nous sommes un groupe d’experts, de <br/>
+          professionnels et de passionnés de l’informatique de Madagascar <br/> et du monde entier.
         </p>
       </div>
     </div>
@@ -66,10 +67,11 @@ function Footer(){
           {/**Icone*/}
       </div>
       <div>
-        <h3 class="text-xl font-bold text-blue-900">+250 étudiants</h3>
+        <h3 class="text-xl font-bold text-blue-900 text-left">+250 étudiants</h3>
         <p class="text-sm text-left">
-          Plus de 250 étudiants et plus d’une dizaine d’entreprises ont déjà fait confiance à notre formation habilitée par l’État malgache.
-          Avec eux tous, nous sommes fiers de pouvoir parler de la “grande famille HEI”.
+          Plus de 250 étudiants et plus d’une dizaine d’entreprises ont <br/>
+          déjà fait confiance à notre formation habilitée par l’État <br/>malgache.
+          Avec eux tous, nous sommes fiers de pouvoir parler de la <br/>“grande famille HEI”.
         </p>
       </div>
     </div>
@@ -80,10 +82,11 @@ function Footer(){
         {/**Icone*/}
       </div>
       <div>
-        <h3 class="text-xl font-bold text-blue-900">Notre mission</h3>
+        <h3 class="text-xl font-bold text-blue-900 text-left">Notre mission</h3>
         <p class="text-sm text-left">
-          Notre mission est d’amener des jeunes malgaches sur des domaines porteurs comme l’intelligence artificielle,
-          la cybersécurité ou la programmation afin de favoriser leur employabilité et le développement de Madagascar.
+          Notre mission est d’amener des jeunes malgaches sur des <br/>
+          domaines porteurs comme l’intelligence artificielle,<br/>
+          la cybersécurité ou la programmation afin de favoriser leur <br/> employabilité et le développement de Madagascar.
         </p>
       </div>
     </div>
