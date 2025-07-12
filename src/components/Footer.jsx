@@ -38,62 +38,41 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 function Footer(){
     return(
         <>
-          <div class="flex flex-col lg:flex-row items-start gap-8 p-8 bg-white">
-  
-  <div class="flex flex-col lg:flex-row gap-4">
-    <div class="rounded-lg overflow-hidden">
-      <img src="image1.jpg" alt="Classe" class="w-72 h-64 object-cover shadow-md" />
-    </div>
-    <div class="rounded-lg border-4 border-white shadow-lg -mt-8 lg:mt-0 lg:-ml-8 bg-white p-2">
-      <img src= {Image31} alt="Étudiants HEI" class="w-64 h-64 object-cover" />
-    </div>
-  </div>
-
-  
-  <div class="space-y-8 text-gray-800">
-    
-    <div class="flex items-start gap-4">
-      <div class="text-yellow-500 text-3xl">
-        🎓
-      </div>
-      <div>
-        <h3 class="text-xl font-bold text-blue-900">+3 ans</h3>
-        <p class="text-sm">
-          Depuis 3 ans, nous formons ceux qui décryptent le futur, aux métiers de l’informatique.
-          Nous sommes un groupe d’experts, de professionnels et de passionnés de l’informatique de Madagascar et du monde entier.
+          <section className="about-us">
+       <div className="about-content">
+        <div className='image'>
+          <img src={Image31} alt="" className='student'/>
+        </div>
+        <div className="right">
+        <div className='text'>
+        <h2>À propos de nous</h2>
+        <div className="years-info">
+           <div className='icon'>🎓 + 3ans </div> 
+          <p>
+          Depuis 3 ans, nous formons ceux qui décodent le futur, aux métiers de l'Informatique. Nous sommes un groupe d'experts, de professionnels et des passionnés de l'Informatique de Madagascar.
         </p>
-      </div>
-    </div>
+        </div>
+        </div>
 
-
-    <div class="flex items-start gap-4">
-      <div class="text-yellow-500 text-3xl">
-        👥
-      </div>
-      <div>
-        <h3 class="text-xl font-bold text-blue-900">+250 étudiants</h3>
-        <p class="text-sm">
-          Plus de 250 étudiants et plus d’une dizaine d’entreprises ont déjà fait confiance à notre formation habilitée par l’État malgache.
-          Avec eux tous, nous sommes fiers de pouvoir parler de la “grande famille HEI”.
+         <div className='text'>
+        <div className="years-info">
+           <div className='icon'>👥 + 250 étudiants </div> 
+          <p>
+         Plus de 250 étudiants et plus d'une dizaine d'entreprises ont déjà fait confiance à l'information habilitée par l'État malgache. Avec eux tous, nous sommes fiers de pouvoir parler de la "grande famille HEI".
         </p>
-      </div>
-    </div>
-
-    
-    <div class="flex items-start gap-4">
-      <div class="text-yellow-500 text-3xl">
-        🏅
-      </div>
-      <div>
-        <h3 class="text-xl font-bold text-blue-900">Notre mission</h3>
-        <p class="text-sm">
-          Notre mission est d’amener des jeunes malgaches sur des domaines porteurs comme l’intelligence artificielle,
-          la cybersécurité ou la programmation afin de favoriser leur employabilité et le développement de Madagascar.
+        </div>
+        </div>
+         <div className='text'>
+        <div className="years-info">
+           <div className='icon'>🏅 Notre mission </div> 
+          <p>
+         Notre mission est d'amener des jeunes malgaches sur des domaines porteurs comme l'Intelligence artificielle, la cybersécurité et la programmation afin de favoriser leur avenir.
         </p>
+        </div>
+        </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
+    </section>
 
 
 <section className="bg-blue-600 text-white py-16">
