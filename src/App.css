@@ -131,43 +131,39 @@ main img {
 @media (max-width: 768px) {
   .navbar {
     padding: 1rem;
-    font-size: 10px;
     padding-right: 10px;
-  }
+ }
 
   .navbar ul {
-    display: none;
-    flex-direction: row;
-  }
-
-  .navbar ul.active {
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 20px;
+    font-size: 10px;
   }
 
-.logo img {
-  height: 50%; 
-  width: 100%;
-}
 
 .navbar ul {
-  display: flex;
-  list-style: none;
   gap: 1px;
 }
 
 .navbar li a {
   color: white;
-  font-weight: 500;
   transition: color 0.3s ease;
+  white-space: nowrap;
+  padding: 0;
+  display: flex;
+  padding-left: 10px;
 }
 
 .navbar li a:hover {
-  color: #3498db; 
+  color: #ffc107; 
 }
 
   .intranet-btn {
     width: 100%;
-    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 6%;
   }
 }
 
@@ -181,6 +177,7 @@ main img {
     padding: 0.5rem;
     font-size: 0.9rem;
   }
+  
   
   .intranet-btn {
     padding: 0.5rem 1rem;

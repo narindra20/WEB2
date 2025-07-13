@@ -89,7 +89,7 @@ function Footer(){
         {/* Cartes de l'équipe */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Carte 1 */}
-          <article className="bg-white text-blue-900 rounded-xl p-6 shadow w-80 h-90 ml-10">
+          <div className="bg-white text-blue-900 rounded-xl p-6 shadow w-80 h-90 ml-10">
             <div class="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-gray-200 mb-4">
             <img src={Image} alt="Profil" class="w-full h-full object-cover"/>
           </div>
@@ -97,7 +97,7 @@ function Footer(){
             <h3 className="text-xl font-bold mt-6">Mirado RAFENOMAHENINTSOA</h3>
             <p>Data and Business Intelligence Specialist 5+</p>
             </div>
-          </article>
+          </div>
 
           {/* Carte 2 */}
           <article className="bg-white text-blue-900 rounded-xl p-6 shadow w-80 h-90 ml-10">
