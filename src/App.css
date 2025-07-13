@@ -130,29 +130,40 @@ main img {
 
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
     padding: 1rem;
+    font-size: 10px;
+    padding-right: 10px;
   }
-
 
   .navbar ul {
     display: none;
-    flex-direction: column;
-    width: 100%;
-    gap: 0;
+    flex-direction: row;
   }
 
   .navbar ul.active {
     display: flex;
   }
 
-  .navbar li {
-    width: 100%;
-    text-align: center;
-    padding: 0.5rem 0;
-    border-top: 1px solid #eee;
-  }
+.logo img {
+  height: 50%; 
+  width: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 1px;
+}
+
+.navbar li a {
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+  color: #3498db; 
+}
 
   .intranet-btn {
     width: 100%;
@@ -178,7 +189,7 @@ main img {
 
  .about-us {
   padding: 2rem 1rem;
-  background-color: #f8f9fa; 
+  background-color: #f8f9fa;
 }
 
 .about-content {
