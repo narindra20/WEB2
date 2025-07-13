@@ -370,13 +370,13 @@ function Footer(){
     <div>
       <h2 class="font-bold text-lg mb-4">Médias sociaux</h2>
       <div class="flex space-x-4">
-        <a href="#" class="bg-yellow-400 rounded-full p-2 text-blue-900">
+        <a href="#" class="bg-yellow-400 rounded-full p-2 w-10 h-10 text-blue-900">
           <i class="fab fa-facebook-f"></i>
         </a>
-        <a href="#" class="bg-yellow-400 rounded-full p-2 text-blue-900">
+        <a href="#" class="bg-yellow-400 rounded-full p-2 w-10 h-10 text-blue-900">
           <i class="fab fa-linkedin-in"></i>
         </a>
-        <a href="#" class="bg-yellow-400 rounded-full p-2 text-blue-900">
+        <a href="#" class="bg-yellow-400 rounded-full p-2 w-10 h-10 text-blue-900">
           <i class="fab fa-instagram"></i>
         </a>
       </div>
